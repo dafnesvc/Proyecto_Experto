@@ -1,0 +1,1614 @@
+[
+    {
+        "fecha": "2024-12-11 13:28:53",
+        "nombre": "Adrian",
+        "edad": "23",
+        "genero": "masculino",
+        "sintomas": [
+            "congestión nasal",
+            "dificultad para respirar",
+            "dolor de garganta",
+            "fatiga",
+            "fiebre",
+            "tos"
+        ],
+        "diagnostico": [
+            {
+                "nombre": "gripe",
+                "descripcion": "La gripe es una enfermedad viral que afecta el sistema respiratorio.",
+                "sintomas": [
+                    "fiebre",
+                    "dolor de garganta",
+                    "tos",
+                    "congestión nasal"
+                ],
+                "sintomas_criticos": [],
+                "tratamiento": "Reposo, hidratación, y analgésicos.",
+                "medicamentos": [
+                    "Paracetamol",
+                    "Ibuprofeno"
+                ],
+                "coincidencias": [
+                    "fiebre",
+                    "dolor de garganta",
+                    "tos",
+                    "congestión nasal"
+                ],
+                "faltantes": [],
+                "porcentaje": 100.0,
+                "puntaje_critico": 0
+            },
+            {
+                "nombre": "covid-19",
+                "descripcion": "COVID-19 es una enfermedad causada por el virus SARS-CoV-2, que afecta principalmente el sistema respiratorio.",
+                "sintomas": [
+                    "fiebre",
+                    "tos seca",
+                    "dificultad para respirar",
+                    "fatiga"
+                ],
+                "sintomas_criticos": [],
+                "tratamiento": "Aislamiento, monitoreo de oxigenación, y consultar a un médico.",
+                "medicamentos": [
+                    "Antipiréticos",
+                    "Oxígeno suplementario (si es necesario)"
+                ],
+                "coincidencias": [
+                    "fiebre",
+                    "dificultad para respirar",
+                    "fatiga"
+                ],
+                "faltantes": [
+                    "tos seca"
+                ],
+                "porcentaje": 75.0,
+                "puntaje_critico": 0
+            },
+            {
+                "nombre": "hepatitis a",
+                "descripcion": "La hepatitis A es una infeccion viral que afecta el higado y puede causar inflamacion y daño temporal",
+                "sintomas": [
+                    "fiebre",
+                    "fatiga",
+                    "dolor abdominal",
+                    "ictericia",
+                    "nauseas"
+                ],
+                "sintomas_criticos": [],
+                "tratamiento": "reposo, hidratacion, y dieta equilibrada",
+                "medicamentos": [
+                    "Antiemeticos",
+                    "suplementos vitaminicos"
+                ],
+                "coincidencias": [
+                    "fiebre",
+                    "fatiga"
+                ],
+                "faltantes": [
+                    "ictericia",
+                    "dolor abdominal",
+                    "nauseas"
+                ],
+                "porcentaje": 40.0,
+                "puntaje_critico": 0
+            },
+            {
+                "nombre": "asma",
+                "descripcion": "El asma es una afección crónica que causa inflamación y estrechamiento de las vías respiratorias.",
+                "sintomas": [
+                    "silbidos en el pecho",
+                    "dificultad para respirar",
+                    "opresión en el pecho"
+                ],
+                "sintomas_criticos": [],
+                "tratamiento": "Uso de inhaladores y evitar desencadenantes.",
+                "medicamentos": [
+                    "Salbutamol",
+                    "Corticoides inhalados"
+                ],
+                "coincidencias": [
+                    "dificultad para respirar"
+                ],
+                "faltantes": [
+                    "silbidos en el pecho",
+                    "opresión en el pecho"
+                ],
+                "porcentaje": 33.33333333333333,
+                "puntaje_critico": 0
+            },
+            {
+                "nombre": "bronquitis",
+                "descripcion": "La bronquitis es una inflamación de los bronquios que puede ser causada por infecciones o irritantes.",
+                "sintomas": [
+                    "flema",
+                    "tos persistente",
+                    "dolor en el pecho",
+                    "fatiga"
+                ],
+                "sintomas_criticos": [],
+                "tratamiento": "Reposo, hidratación, y medicamentos para aliviar los síntomas.",
+                "medicamentos": [
+                    "Ibuprofeno",
+                    "Expectorantes"
+                ],
+                "coincidencias": [
+                    "fatiga"
+                ],
+                "faltantes": [
+                    "flema",
+                    "tos persistente",
+                    "dolor en el pecho"
+                ],
+                "porcentaje": 25.0,
+                "puntaje_critico": 0
+            }
+        ]
+    },
+    {
+        "fecha": "2024-12-11 13:29:46",
+        "nombre": "Carlos",
+        "edad": "22",
+        "genero": "Masculino",
+        "sintomas": [
+            "cansancio",
+            "dificultad para concentrarse",
+            "flema"
+        ],
+        "diagnostico": [
+            {
+                "nombre": "anemia",
+                "descripcion": "La anemia ocurre cuando el cuerpo no tiene suficientes glóbulos rojos saludables para transportar oxígeno.",
+                "sintomas": [
+                    "mareos",
+                    "cansancio",
+                    "palidez",
+                    "dificultad para concentrarse"
+                ],
+                "sintomas_criticos": [],
+                "tratamiento": "Consumo de alimentos ricos en hierro y suplementos.",
+                "medicamentos": [
+                    "Sulfato ferroso"
+                ],
+                "coincidencias": [
+                    "cansancio",
+                    "dificultad para concentrarse"
+                ],
+                "faltantes": [
+                    "palidez",
+                    "mareos"
+                ],
+                "porcentaje": 50.0,
+                "puntaje_critico": 0
+            },
+            {
+                "nombre": "diabetes tipo 2",
+                "descripcion": "La diabetes tipo 2 afecta cómo el cuerpo procesa el azúcar en la sangre (glucosa).",
+                "sintomas": [
+                    "visión borrosa",
+                    "sed excesiva",
+                    "orinar frecuentemente",
+                    "cansancio"
+                ],
+                "sintomas_criticos": [],
+                "tratamiento": "Control de azúcar en la sangre, dieta equilibrada y ejercicio regular.",
+                "medicamentos": [
+                    "Metformina",
+                    "Insulina"
+                ],
+                "coincidencias": [
+                    "cansancio"
+                ],
+                "faltantes": [
+                    "sed excesiva",
+                    "orinar frecuentemente",
+                    "visión borrosa"
+                ],
+                "porcentaje": 25.0,
+                "puntaje_critico": 0
+            },
+            {
+                "nombre": "bronquitis",
+                "descripcion": "La bronquitis es una inflamación de los bronquios que puede ser causada por infecciones o irritantes.",
+                "sintomas": [
+                    "flema",
+                    "tos persistente",
+                    "dolor en el pecho",
+                    "fatiga"
+                ],
+                "sintomas_criticos": [],
+                "tratamiento": "Reposo, hidratación, y medicamentos para aliviar los síntomas.",
+                "medicamentos": [
+                    "Ibuprofeno",
+                    "Expectorantes"
+                ],
+                "coincidencias": [
+                    "flema"
+                ],
+                "faltantes": [
+                    "tos persistente",
+                    "dolor en el pecho",
+                    "fatiga"
+                ],
+                "porcentaje": 25.0,
+                "puntaje_critico": 0
+            }
+        ]
+    },
+    {
+        "fecha": "2024-12-11 13:33:12",
+        "nombre": "Julia",
+        "edad": "55",
+        "genero": "Femenino",
+        "sintomas": [
+            "cansancio",
+            "dificultad para concentrarse",
+            "dificultad para respirar"
+        ],
+        "diagnostico": [
+            {
+                "nombre": "covid-19",
+                "descripcion": "COVID-19 es una enfermedad causada por el virus SARS-CoV-2, que afecta principalmente el sistema respiratorio.",
+                "sintomas": [
+                    "dificultad para respirar",
+                    "fatiga",
+                    "fiebre",
+                    "tos seca"
+                ],
+                "sintomas_criticos": [],
+                "tratamiento": "Aislamiento, monitoreo de oxigenación, y consultar a un médico.",
+                "medicamentos": [
+                    "Antipiréticos",
+                    "Oxígeno suplementario (si es necesario)"
+                ],
+                "coincidencias": [
+                    "dificultad para respirar",
+                    "fatiga",
+                    "fiebre"
+                ],
+                "faltantes": [],
+                "porcentaje": 75.0,
+                "puntaje_critico": 0
+            },
+            {
+                "nombre": "anemia",
+                "descripcion": "La anemia ocurre cuando el cuerpo no tiene suficientes glóbulos rojos saludables para transportar oxígeno.",
+                "sintomas": [
+                    "cansancio",
+                    "dificultad para concentrarse",
+                    "mareos",
+                    "palidez"
+                ],
+                "sintomas_criticos": [],
+                "tratamiento": "Consumo de alimentos ricos en hierro y suplementos.",
+                "medicamentos": [
+                    "Sulfato ferroso"
+                ],
+                "coincidencias": [
+                    "cansancio",
+                    "dificultad para concentrarse"
+                ],
+                "faltantes": [],
+                "porcentaje": 50.0,
+                "puntaje_critico": 0
+            },
+            {
+                "nombre": "diabetes tipo 2",
+                "descripcion": "La diabetes tipo 2 afecta cómo el cuerpo procesa el azúcar en la sangre (glucosa).",
+                "sintomas": [
+                    "visión borrosa",
+                    "cansancio",
+                    "orinar frecuentemente",
+                    "sed excesiva"
+                ],
+                "sintomas_criticos": [],
+                "tratamiento": "Control de azúcar en la sangre, dieta equilibrada y ejercicio regular.",
+                "medicamentos": [
+                    "Metformina",
+                    "Insulina"
+                ],
+                "coincidencias": [
+                    "cansancio",
+                    "visión borrosa"
+                ],
+                "faltantes": [],
+                "porcentaje": 50.0,
+                "puntaje_critico": 0
+            },
+            {
+                "nombre": "asma",
+                "descripcion": "El asma es una afección crónica que causa inflamación y estrechamiento de las vías respiratorias.",
+                "sintomas": [
+                    "opresión en el pecho",
+                    "dificultad para respirar",
+                    "silbidos en el pecho"
+                ],
+                "sintomas_criticos": [],
+                "tratamiento": "Uso de inhaladores y evitar desencadenantes.",
+                "medicamentos": [
+                    "Salbutamol",
+                    "Corticoides inhalados"
+                ],
+                "coincidencias": [
+                    "dificultad para respirar"
+                ],
+                "faltantes": [],
+                "porcentaje": 33.33333333333333,
+                "puntaje_critico": 0
+            }
+        ]
+    },
+    {
+        "fecha": "2024-12-11 13:40:27",
+        "nombre": "Dafne",
+        "edad": "26",
+        "genero": "Femenino",
+        "sintomas": [
+            "cansancio",
+            "dolor de cabeza",
+            "mareos"
+        ],
+        "diagnostico": [
+            {
+                "nombre": "anemia",
+                "descripcion": "La anemia ocurre cuando el cuerpo no tiene suficientes glóbulos rojos saludables para transportar oxígeno.",
+                "sintomas": [
+                    "cansancio",
+                    "palidez",
+                    "dificultad para concentrarse",
+                    "mareos"
+                ],
+                "tratamiento": "Consumo de alimentos ricos en hierro y suplementos.",
+                "medicamentos": [
+                    "Sulfato ferroso"
+                ],
+                "coincidencias": [
+                    "cansancio",
+                    "mareos"
+                ],
+                "faltantes": [
+                    "palidez",
+                    "dificultad para concentrarse"
+                ],
+                "porcentaje": 50.0,
+                "peso_coincidencia": 2
+            },
+            {
+                "nombre": "migraña",
+                "descripcion": "La migraña es un tipo de dolor de cabeza severo, a menudo acompañado de náuseas y sensibilidad a la luz.",
+                "sintomas": [
+                    "dolor de cabeza",
+                    "náuseas",
+                    "sensibilidad a la luz"
+                ],
+                "tratamiento": "Analgesia y evitar estímulos luminosos.",
+                "medicamentos": [
+                    "Aspirina",
+                    "Sumatriptán"
+                ],
+                "coincidencias": [
+                    "dolor de cabeza"
+                ],
+                "faltantes": [
+                    "náuseas",
+                    "sensibilidad a la luz"
+                ],
+                "porcentaje": 33.33333333333333,
+                "peso_coincidencia": 1
+            },
+            {
+                "nombre": "diabetes tipo 2",
+                "descripcion": "La diabetes tipo 2 afecta cómo el cuerpo procesa el azúcar en la sangre (glucosa).",
+                "sintomas": [
+                    "sed excesiva",
+                    "orinar frecuentemente",
+                    "cansancio",
+                    "visión borrosa"
+                ],
+                "tratamiento": "Control de azúcar en la sangre, dieta equilibrada y ejercicio regular.",
+                "medicamentos": [
+                    "Metformina",
+                    "Insulina"
+                ],
+                "coincidencias": [
+                    "cansancio"
+                ],
+                "faltantes": [
+                    "sed excesiva",
+                    "orinar frecuentemente",
+                    "visión borrosa"
+                ],
+                "porcentaje": 25.0,
+                "peso_coincidencia": 1
+            }
+        ]
+    },
+    {
+        "fecha": "2024-12-11 13:43:54",
+        "nombre": "Sarahi",
+        "edad": "28",
+        "genero": "Femenino",
+        "sintomas": [
+            "cansancio",
+            "congestión nasal"
+        ],
+        "diagnostico": [
+            {
+                "nombre": "gripe",
+                "descripcion": "La gripe es una enfermedad viral que afecta el sistema respiratorio.",
+                "sintomas": [
+                    "fiebre",
+                    "tos",
+                    "dolor de garganta",
+                    "congestión nasal"
+                ],
+                "tratamiento": "Reposo, hidratación, y analgésicos.",
+                "medicamentos": [
+                    "Paracetamol",
+                    "Ibuprofeno"
+                ],
+                "coincidencias": [
+                    "congestión nasal",
+                    "fiebre",
+                    "tos",
+                    "dolor de garganta"
+                ],
+                "faltantes": [],
+                "porcentaje": 100.0,
+                "peso_coincidencia": 4
+            },
+            {
+                "nombre": "diabetes tipo 2",
+                "descripcion": "La diabetes tipo 2 afecta cómo el cuerpo procesa el azúcar en la sangre (glucosa).",
+                "sintomas": [
+                    "sed excesiva",
+                    "orinar frecuentemente",
+                    "cansancio",
+                    "visión borrosa"
+                ],
+                "tratamiento": "Control de azúcar en la sangre, dieta equilibrada y ejercicio regular.",
+                "medicamentos": [
+                    "Metformina",
+                    "Insulina"
+                ],
+                "coincidencias": [
+                    "cansancio"
+                ],
+                "faltantes": [
+                    "sed excesiva",
+                    "orinar frecuentemente",
+                    "visión borrosa"
+                ],
+                "porcentaje": 25.0,
+                "peso_coincidencia": 1
+            },
+            {
+                "nombre": "anemia",
+                "descripcion": "La anemia ocurre cuando el cuerpo no tiene suficientes glóbulos rojos saludables para transportar oxígeno.",
+                "sintomas": [
+                    "cansancio",
+                    "palidez",
+                    "dificultad para concentrarse",
+                    "mareos"
+                ],
+                "tratamiento": "Consumo de alimentos ricos en hierro y suplementos.",
+                "medicamentos": [
+                    "Sulfato ferroso"
+                ],
+                "coincidencias": [
+                    "cansancio"
+                ],
+                "faltantes": [
+                    "palidez",
+                    "dificultad para concentrarse",
+                    "mareos"
+                ],
+                "porcentaje": 25.0,
+                "peso_coincidencia": 1
+            }
+        ]
+    },
+    {
+        "fecha": "2024-12-11 13:46:59",
+        "nombre": "Valentina",
+        "edad": "60",
+        "genero": "Femenino",
+        "sintomas": [
+            "dolor abdominal",
+            "fatiga"
+        ],
+        "diagnostico": [
+            {
+                "nombre": "hepatitis a",
+                "descripcion": "La hepatitis A es una infeccion viral que afecta el higado y puede causar inflamacion y daño temporal",
+                "sintomas": [
+                    "fiebre",
+                    "dolor abdominal",
+                    "ictericia",
+                    "fatiga",
+                    "nauseas"
+                ],
+                "tratamiento": "reposo, hidratacion, y dieta equilibrada",
+                "medicamentos": [
+                    "Antiemeticos",
+                    "suplementos vitaminicos"
+                ],
+                "coincidencias": [
+                    "dolor abdominal",
+                    "fatiga",
+                    "nauseas"
+                ],
+                "faltantes": [
+                    "fiebre",
+                    "ictericia"
+                ],
+                "porcentaje": 60.0,
+                "peso_coincidencia": 3,
+                "sintomas_con_peso": {
+                    "fiebre": 1,
+                    "dolor abdominal": 1,
+                    "ictericia": 1,
+                    "fatiga": 1,
+                    "nauseas": 1
+                }
+            },
+            {
+                "nombre": "covid-19",
+                "descripcion": "COVID-19 es una enfermedad causada por el virus SARS-CoV-2, que afecta principalmente el sistema respiratorio.",
+                "sintomas": [
+                    "fiebre",
+                    "tos seca",
+                    "dificultad para respirar",
+                    "fatiga"
+                ],
+                "tratamiento": "Aislamiento, monitoreo de oxigenación, y consultar a un médico.",
+                "medicamentos": [
+                    "Antipiréticos",
+                    "Oxígeno suplementario (si es necesario)"
+                ],
+                "coincidencias": [
+                    "fatiga"
+                ],
+                "faltantes": [
+                    "fiebre",
+                    "tos seca",
+                    "dificultad para respirar"
+                ],
+                "porcentaje": 25.0,
+                "peso_coincidencia": 1,
+                "sintomas_con_peso": {
+                    "fiebre": 1,
+                    "tos seca": 1,
+                    "dificultad para respirar": 1,
+                    "fatiga": 1
+                }
+            },
+            {
+                "nombre": "bronquitis",
+                "descripcion": "La bronquitis es una inflamación de los bronquios que puede ser causada por infecciones o irritantes.",
+                "sintomas": [
+                    "tos persistente",
+                    "flema",
+                    "dolor en el pecho",
+                    "fatiga"
+                ],
+                "tratamiento": "Reposo, hidratación, y medicamentos para aliviar los síntomas.",
+                "medicamentos": [
+                    "Ibuprofeno",
+                    "Expectorantes"
+                ],
+                "coincidencias": [
+                    "fatiga"
+                ],
+                "faltantes": [
+                    "tos persistente",
+                    "flema",
+                    "dolor en el pecho"
+                ],
+                "porcentaje": 25.0,
+                "peso_coincidencia": 1,
+                "sintomas_con_peso": {
+                    "tos persistente": 1,
+                    "flema": 1,
+                    "dolor en el pecho": 1,
+                    "fatiga": 1
+                }
+            }
+        ]
+    },
+    {
+        "fecha": "2024-12-11 17:13:57",
+        "nombre": "cruz",
+        "edad": "70",
+        "genero": "masculino",
+        "sintomas": [
+            "cansancio",
+            "fatiga"
+        ],
+        "diagnostico": [
+            {
+                "nombre": "covid-19",
+                "descripcion": "COVID-19 es una enfermedad causada por el virus SARS-CoV-2, que afecta principalmente el sistema respiratorio.",
+                "sintomas": [
+                    "fiebre",
+                    "tos seca",
+                    "dificultad para respirar",
+                    "fatiga"
+                ],
+                "tratamiento": "Aislamiento, monitoreo de oxigenación, y consultar a un médico.",
+                "medicamentos": [
+                    "Antipiréticos",
+                    "Oxígeno suplementario (si es necesario)"
+                ],
+                "coincidencias": [
+                    "fatiga",
+                    "fiebre",
+                    "dificultad para respirar"
+                ],
+                "faltantes": [
+                    "tos seca"
+                ],
+                "porcentaje": 75.0,
+                "peso_coincidencia": 3,
+                "sintomas_con_peso": {
+                    "fiebre": 1,
+                    "tos seca": 1,
+                    "dificultad para respirar": 1,
+                    "fatiga": 1
+                }
+            },
+            {
+                "nombre": "diabetes tipo 2",
+                "descripcion": "La diabetes tipo 2 afecta cómo el cuerpo procesa el azúcar en la sangre (glucosa).",
+                "sintomas": [
+                    "sed excesiva",
+                    "orinar frecuentemente",
+                    "cansancio",
+                    "visión borrosa"
+                ],
+                "tratamiento": "Control de azúcar en la sangre, dieta equilibrada y ejercicio regular.",
+                "medicamentos": [
+                    "Metformina",
+                    "Insulina"
+                ],
+                "coincidencias": [
+                    "cansancio"
+                ],
+                "faltantes": [
+                    "sed excesiva",
+                    "orinar frecuentemente",
+                    "visión borrosa"
+                ],
+                "porcentaje": 25.0,
+                "peso_coincidencia": 1,
+                "sintomas_con_peso": {
+                    "sed excesiva": 1,
+                    "orinar frecuentemente": 1,
+                    "cansancio": 1,
+                    "visión borrosa": 1
+                }
+            },
+            {
+                "nombre": "bronquitis",
+                "descripcion": "La bronquitis es una inflamación de los bronquios que puede ser causada por infecciones o irritantes.",
+                "sintomas": [
+                    "tos persistente",
+                    "flema",
+                    "dolor en el pecho",
+                    "fatiga"
+                ],
+                "tratamiento": "Reposo, hidratación, y medicamentos para aliviar los síntomas.",
+                "medicamentos": [
+                    "Ibuprofeno",
+                    "Expectorantes"
+                ],
+                "coincidencias": [
+                    "fatiga"
+                ],
+                "faltantes": [
+                    "tos persistente",
+                    "flema",
+                    "dolor en el pecho"
+                ],
+                "porcentaje": 25.0,
+                "peso_coincidencia": 1,
+                "sintomas_con_peso": {
+                    "tos persistente": 1,
+                    "flema": 1,
+                    "dolor en el pecho": 1,
+                    "fatiga": 1
+                }
+            },
+            {
+                "nombre": "anemia",
+                "descripcion": "La anemia ocurre cuando el cuerpo no tiene suficientes glóbulos rojos saludables para transportar oxígeno.",
+                "sintomas": [
+                    "cansancio",
+                    "palidez",
+                    "dificultad para concentrarse",
+                    "mareos"
+                ],
+                "tratamiento": "Consumo de alimentos ricos en hierro y suplementos.",
+                "medicamentos": [
+                    "Sulfato ferroso"
+                ],
+                "coincidencias": [
+                    "cansancio"
+                ],
+                "faltantes": [
+                    "palidez",
+                    "dificultad para concentrarse",
+                    "mareos"
+                ],
+                "porcentaje": 25.0,
+                "peso_coincidencia": 1,
+                "sintomas_con_peso": {
+                    "cansancio": 1,
+                    "palidez": 1,
+                    "dificultad para concentrarse": 1,
+                    "mareos": 1
+                }
+            },
+            {
+                "nombre": "hepatitis a",
+                "descripcion": "La hepatitis A es una infeccion viral que afecta el higado y puede causar inflamacion y daño temporal",
+                "sintomas": [
+                    "fiebre",
+                    "dolor abdominal",
+                    "ictericia",
+                    "fatiga",
+                    "nauseas"
+                ],
+                "tratamiento": "reposo, hidratacion, y dieta equilibrada",
+                "medicamentos": [
+                    "Antiemeticos",
+                    "suplementos vitaminicos"
+                ],
+                "coincidencias": [
+                    "fatiga"
+                ],
+                "faltantes": [
+                    "fiebre",
+                    "dolor abdominal",
+                    "ictericia",
+                    "nauseas"
+                ],
+                "porcentaje": 20.0,
+                "peso_coincidencia": 1,
+                "sintomas_con_peso": {
+                    "fiebre": 1,
+                    "dolor abdominal": 1,
+                    "ictericia": 1,
+                    "fatiga": 1,
+                    "nauseas": 1
+                }
+            }
+        ]
+    },
+    {
+        "fecha": "2024-12-12 00:58:15",
+        "nombre": "Ulises",
+        "edad": "45",
+        "genero": "Masculino",
+        "sintomas": [
+            "acidez",
+            "dolor abdominal"
+        ],
+        "diagnostico": [
+            {
+                "nombre": "gastritis",
+                "descripcion": "La gastritis es una inflamación del revestimiento del estómago que puede causar dolor abdominal, náuseas y acidez.",
+                "sintomas": [
+                    "dolor abdominal",
+                    "acidez",
+                    "náuseas",
+                    "pérdida de apetito"
+                ],
+                "tratamiento": "Evitar alimentos irritantes, consumir antiácidos y mantener una dieta blanda.",
+                "medicamentos": [
+                    "Omeprazol",
+                    "Ranitidina",
+                    "Antiácidos"
+                ],
+                "coincidencias": [
+                    "acidez",
+                    "dolor abdominal",
+                    "náuseas"
+                ],
+                "faltantes": [
+                    "pérdida de apetito"
+                ],
+                "porcentaje": 85.71428571428571,
+                "peso_coincidencia": 12,
+                "sintomas_con_peso": {
+                    "dolor abdominal": 5,
+                    "acidez": 4,
+                    "náuseas": 3,
+                    "pérdida de apetito": 2
+                }
+            },
+            {
+                "nombre": "hepatitis a",
+                "descripcion": "La hepatitis A es una infeccion viral que afecta el higado y puede causar inflamacion y daño temporal",
+                "sintomas": [
+                    "fiebre",
+                    "dolor abdominal",
+                    "ictericia",
+                    "fatiga",
+                    "nauseas"
+                ],
+                "tratamiento": "reposo, hidratacion, y dieta equilibrada",
+                "medicamentos": [
+                    "Antiemeticos",
+                    "suplementos vitaminicos"
+                ],
+                "coincidencias": [
+                    "dolor abdominal"
+                ],
+                "faltantes": [
+                    "fiebre",
+                    "ictericia",
+                    "fatiga",
+                    "nauseas"
+                ],
+                "porcentaje": 20.0,
+                "peso_coincidencia": 1,
+                "sintomas_con_peso": {
+                    "fiebre": 1,
+                    "dolor abdominal": 1,
+                    "ictericia": 1,
+                    "fatiga": 1,
+                    "nauseas": 1
+                }
+            }
+        ]
+    },
+    {
+        "fecha": "2024-12-12 01:13:46",
+        "nombre": "Maria",
+        "edad": "33",
+        "genero": "Femenino",
+        "sintomas": [
+            "acidez",
+            "dolor abdominal"
+        ],
+        "diagnostico": [
+            {
+                "nombre": "gastritis",
+                "descripcion": "La gastritis es una inflamación del revestimiento del estómago que puede causar dolor abdominal, náuseas y acidez.",
+                "sintomas": [
+                    "dolor abdominal",
+                    "acidez",
+                    "náuseas",
+                    "pérdida de apetito"
+                ],
+                "tratamiento": "Evitar alimentos irritantes, consumir antiácidos y mantener una dieta blanda.",
+                "medicamentos": [
+                    "Omeprazol",
+                    "Ranitidina",
+                    "Antiácidos"
+                ],
+                "coincidencias": [
+                    "acidez",
+                    "dolor abdominal"
+                ],
+                "faltantes": [
+                    "náuseas",
+                    "pérdida de apetito"
+                ],
+                "porcentaje": 64.28571428571429,
+                "peso_coincidencia": 9,
+                "sintomas_con_peso": {
+                    "dolor abdominal": 5,
+                    "acidez": 4,
+                    "náuseas": 3,
+                    "pérdida de apetito": 2
+                }
+            },
+            {
+                "nombre": "hepatitis a",
+                "descripcion": "La hepatitis A es una infeccion viral que afecta el higado y puede causar inflamacion y daño temporal",
+                "sintomas": [
+                    "fiebre",
+                    "dolor abdominal",
+                    "ictericia",
+                    "fatiga",
+                    "nauseas"
+                ],
+                "tratamiento": "reposo, hidratacion, y dieta equilibrada",
+                "medicamentos": [
+                    "Antiemeticos",
+                    "suplementos vitaminicos"
+                ],
+                "coincidencias": [
+                    "dolor abdominal"
+                ],
+                "faltantes": [
+                    "fiebre",
+                    "ictericia",
+                    "fatiga",
+                    "nauseas"
+                ],
+                "porcentaje": 20.0,
+                "peso_coincidencia": 1,
+                "sintomas_con_peso": {
+                    "fiebre": 1,
+                    "dolor abdominal": 1,
+                    "ictericia": 1,
+                    "fatiga": 1,
+                    "nauseas": 1
+                }
+            }
+        ]
+    },
+    {
+        "fecha": "2024-12-12 01:35:12",
+        "nombre": "Julio",
+        "edad": "25",
+        "genero": "masculino",
+        "sintomas": [
+            "dolor de cabeza",
+            "dolor de garganta",
+            "dolor en el pecho"
+        ],
+        "diagnostico": [
+            {
+                "nombre": "gripe",
+                "descripcion": "La gripe es una enfermedad viral que afecta el sistema respiratorio.",
+                "sintomas": [
+                    "fiebre",
+                    "tos",
+                    "dolor de garganta",
+                    "congestión nasal"
+                ],
+                "tratamiento": "Reposo, hidratación, y analgésicos.",
+                "medicamentos": [
+                    "Paracetamol",
+                    "Ibuprofeno"
+                ],
+                "coincidencias": [
+                    "dolor de garganta",
+                    "fiebre",
+                    "tos",
+                    "congestión nasal"
+                ],
+                "faltantes": [],
+                "porcentaje": 100.0,
+                "peso_coincidencia": 4,
+                "sintomas_con_peso": {
+                    "fiebre": 1,
+                    "tos": 1,
+                    "dolor de garganta": 1,
+                    "congestión nasal": 1
+                }
+            },
+            {
+                "nombre": "migraña",
+                "descripcion": "La migraña es un tipo de dolor de cabeza severo, a menudo acompañado de náuseas y sensibilidad a la luz.",
+                "sintomas": [
+                    "dolor de cabeza",
+                    "náuseas",
+                    "sensibilidad a la luz"
+                ],
+                "tratamiento": "Analgesia y evitar estímulos luminosos.",
+                "medicamentos": [
+                    "Aspirina",
+                    "Sumatriptán"
+                ],
+                "coincidencias": [
+                    "dolor de cabeza",
+                    "náuseas"
+                ],
+                "faltantes": [
+                    "sensibilidad a la luz"
+                ],
+                "porcentaje": 66.66666666666666,
+                "peso_coincidencia": 2,
+                "sintomas_con_peso": {
+                    "dolor de cabeza": 1,
+                    "náuseas": 1,
+                    "sensibilidad a la luz": 1
+                }
+            },
+            {
+                "nombre": "bronquitis",
+                "descripcion": "La bronquitis es una inflamación de los bronquios que puede ser causada por infecciones o irritantes.",
+                "sintomas": [
+                    "tos persistente",
+                    "flema",
+                    "dolor en el pecho",
+                    "fatiga"
+                ],
+                "tratamiento": "Reposo, hidratación, y medicamentos para aliviar los síntomas.",
+                "medicamentos": [
+                    "Ibuprofeno",
+                    "Expectorantes"
+                ],
+                "coincidencias": [
+                    "dolor en el pecho",
+                    "flema"
+                ],
+                "faltantes": [
+                    "tos persistente",
+                    "fatiga"
+                ],
+                "porcentaje": 50.0,
+                "peso_coincidencia": 2,
+                "sintomas_con_peso": {
+                    "tos persistente": 1,
+                    "flema": 1,
+                    "dolor en el pecho": 1,
+                    "fatiga": 1
+                }
+            }
+        ]
+    },
+    {
+        "fecha": "2024-12-12 01:59:19",
+        "nombre": "Carmen",
+        "edad": "22",
+        "genero": "femenino",
+        "sintomas_confirmados": [
+            "nauseas",
+            "dolor de garganta",
+            "congestión nasal",
+            "mareos",
+            "náuseas",
+            "tos seca",
+            "dificultad para respirar",
+            "tos",
+            "fiebre",
+            "tos persistente",
+            "flema"
+        ],
+        "diagnostico": [
+            {
+                "nombre": "gripe",
+                "descripcion": "La gripe es una enfermedad viral que afecta el sistema respiratorio.",
+                "tratamiento": "Reposo, hidratación, y analgésicos.",
+                "medicamentos": [
+                    "Paracetamol",
+                    "Ibuprofeno"
+                ],
+                "coincidencias": [
+                    "nauseas",
+                    "dolor de garganta",
+                    "congestión nasal",
+                    "mareos",
+                    "náuseas",
+                    "tos seca",
+                    "dificultad para respirar",
+                    "tos",
+                    "fiebre",
+                    "tos persistente",
+                    "flema"
+                ],
+                "faltantes": [],
+                "peso_coincidencia": 4,
+                "porcentaje": 100.0
+            },
+            {
+                "nombre": "covid-19",
+                "descripcion": "COVID-19 es una enfermedad causada por el virus SARS-CoV-2, que afecta principalmente el sistema respiratorio.",
+                "tratamiento": "Aislamiento, monitoreo de oxigenación, y consultar a un médico.",
+                "medicamentos": [
+                    "Antipiréticos",
+                    "Oxígeno suplementario (si es necesario)"
+                ],
+                "coincidencias": [
+                    "nauseas",
+                    "dolor de garganta",
+                    "congestión nasal",
+                    "mareos",
+                    "náuseas",
+                    "tos seca",
+                    "dificultad para respirar",
+                    "tos",
+                    "fiebre",
+                    "tos persistente",
+                    "flema"
+                ],
+                "faltantes": [
+                    "fatiga"
+                ],
+                "peso_coincidencia": 3,
+                "porcentaje": 75.0
+            },
+            {
+                "nombre": "bronquitis",
+                "descripcion": "La bronquitis es una inflamación de los bronquios que puede ser causada por infecciones o irritantes.",
+                "tratamiento": "Reposo, hidratación, y medicamentos para aliviar los síntomas.",
+                "medicamentos": [
+                    "Ibuprofeno",
+                    "Expectorantes"
+                ],
+                "coincidencias": [
+                    "nauseas",
+                    "dolor de garganta",
+                    "congestión nasal",
+                    "mareos",
+                    "náuseas",
+                    "tos seca",
+                    "dificultad para respirar",
+                    "tos",
+                    "fiebre",
+                    "tos persistente",
+                    "flema"
+                ],
+                "faltantes": [
+                    "dolor en el pecho",
+                    "fatiga"
+                ],
+                "peso_coincidencia": 2,
+                "porcentaje": 50.0
+            },
+            {
+                "nombre": "hepatitis a",
+                "descripcion": "La hepatitis A es una infeccion viral que afecta el higado y puede causar inflamacion y daño temporal",
+                "tratamiento": "reposo, hidratacion, y dieta equilibrada",
+                "medicamentos": [
+                    "Antiemeticos",
+                    "suplementos vitaminicos"
+                ],
+                "coincidencias": [
+                    "nauseas",
+                    "dolor de garganta",
+                    "congestión nasal",
+                    "mareos",
+                    "náuseas",
+                    "tos seca",
+                    "dificultad para respirar",
+                    "tos",
+                    "fiebre",
+                    "tos persistente",
+                    "flema"
+                ],
+                "faltantes": [
+                    "dolor abdominal",
+                    "ictericia",
+                    "fatiga"
+                ],
+                "peso_coincidencia": 2,
+                "porcentaje": 40.0
+            },
+            {
+                "nombre": "migraña",
+                "descripcion": "La migraña es un tipo de dolor de cabeza severo, a menudo acompañado de náuseas y sensibilidad a la luz.",
+                "tratamiento": "Analgesia y evitar estímulos luminosos.",
+                "medicamentos": [
+                    "Aspirina",
+                    "Sumatriptán"
+                ],
+                "coincidencias": [
+                    "nauseas",
+                    "dolor de garganta",
+                    "congestión nasal",
+                    "mareos",
+                    "náuseas",
+                    "tos seca",
+                    "dificultad para respirar",
+                    "tos",
+                    "fiebre",
+                    "tos persistente",
+                    "flema"
+                ],
+                "faltantes": [
+                    "dolor de cabeza",
+                    "sensibilidad a la luz"
+                ],
+                "peso_coincidencia": 1,
+                "porcentaje": 33.33333333333333
+            },
+            {
+                "nombre": "asma",
+                "descripcion": "El asma es una afección crónica que causa inflamación y estrechamiento de las vías respiratorias.",
+                "tratamiento": "Uso de inhaladores y evitar desencadenantes.",
+                "medicamentos": [
+                    "Salbutamol",
+                    "Corticoides inhalados"
+                ],
+                "coincidencias": [
+                    "nauseas",
+                    "dolor de garganta",
+                    "congestión nasal",
+                    "mareos",
+                    "náuseas",
+                    "tos seca",
+                    "dificultad para respirar",
+                    "tos",
+                    "fiebre",
+                    "tos persistente",
+                    "flema"
+                ],
+                "faltantes": [
+                    "silbidos en el pecho",
+                    "opresión en el pecho"
+                ],
+                "peso_coincidencia": 1,
+                "porcentaje": 33.33333333333333
+            },
+            {
+                "nombre": "anemia",
+                "descripcion": "La anemia ocurre cuando el cuerpo no tiene suficientes glóbulos rojos saludables para transportar oxígeno.",
+                "tratamiento": "Consumo de alimentos ricos en hierro y suplementos.",
+                "medicamentos": [
+                    "Sulfato ferroso"
+                ],
+                "coincidencias": [
+                    "nauseas",
+                    "dolor de garganta",
+                    "congestión nasal",
+                    "mareos",
+                    "náuseas",
+                    "tos seca",
+                    "dificultad para respirar",
+                    "tos",
+                    "fiebre",
+                    "tos persistente",
+                    "flema"
+                ],
+                "faltantes": [
+                    "cansancio",
+                    "palidez",
+                    "dificultad para concentrarse"
+                ],
+                "peso_coincidencia": 1,
+                "porcentaje": 25.0
+            },
+            {
+                "nombre": "gastritis",
+                "descripcion": "La gastritis es una inflamación del revestimiento del estómago que puede causar dolor abdominal, náuseas y acidez.",
+                "tratamiento": "Evitar alimentos irritantes, consumir antiácidos y mantener una dieta blanda.",
+                "medicamentos": [
+                    "Omeprazol",
+                    "Ranitidina",
+                    "Antiácidos"
+                ],
+                "coincidencias": [
+                    "nauseas",
+                    "dolor de garganta",
+                    "congestión nasal",
+                    "mareos",
+                    "náuseas",
+                    "tos seca",
+                    "dificultad para respirar",
+                    "tos",
+                    "fiebre",
+                    "tos persistente",
+                    "flema"
+                ],
+                "faltantes": [
+                    "dolor abdominal",
+                    "acidez",
+                    "pérdida de apetito"
+                ],
+                "peso_coincidencia": 3,
+                "porcentaje": 21.428571428571427
+            }
+        ]
+    },
+    {
+        "fecha": "2024-12-12 02:08:47",
+        "nombre": "Diego",
+        "edad": "18",
+        "genero": "masculino",
+        "sintomas_confirmados": [
+            "ictericia",
+            "palidez",
+            "dolor abdominal"
+        ],
+        "diagnostico": [
+            {
+                "nombre": "hepatitis a",
+                "descripcion": "La hepatitis A es una infeccion viral que afecta el higado y puede causar inflamacion y daño temporal",
+                "tratamiento": "reposo, hidratacion, y dieta equilibrada",
+                "medicamentos": [
+                    "Antiemeticos",
+                    "suplementos vitaminicos"
+                ],
+                "coincidencias": [
+                    "ictericia",
+                    "palidez",
+                    "dolor abdominal"
+                ],
+                "faltantes": [
+                    "fiebre",
+                    "fatiga",
+                    "nauseas"
+                ],
+                "peso_coincidencia": 2,
+                "porcentaje": 40.0
+            },
+            {
+                "nombre": "gastritis",
+                "descripcion": "La gastritis es una inflamación del revestimiento del estómago que puede causar dolor abdominal, náuseas y acidez.",
+                "tratamiento": "Evitar alimentos irritantes, consumir antiácidos y mantener una dieta blanda.",
+                "medicamentos": [
+                    "Omeprazol",
+                    "Ranitidina",
+                    "Antiácidos"
+                ],
+                "coincidencias": [
+                    "ictericia",
+                    "palidez",
+                    "dolor abdominal"
+                ],
+                "faltantes": [
+                    "acidez",
+                    "náuseas",
+                    "pérdida de apetito"
+                ],
+                "peso_coincidencia": 5,
+                "porcentaje": 35.714285714285715
+            },
+            {
+                "nombre": "anemia",
+                "descripcion": "La anemia ocurre cuando el cuerpo no tiene suficientes glóbulos rojos saludables para transportar oxígeno.",
+                "tratamiento": "Consumo de alimentos ricos en hierro y suplementos.",
+                "medicamentos": [
+                    "Sulfato ferroso"
+                ],
+                "coincidencias": [
+                    "ictericia",
+                    "palidez",
+                    "dolor abdominal"
+                ],
+                "faltantes": [
+                    "cansancio",
+                    "dificultad para concentrarse",
+                    "mareos"
+                ],
+                "peso_coincidencia": 1,
+                "porcentaje": 25.0
+            }
+        ]
+    },
+    {
+        "fecha": "2024-12-12 02:08:48",
+        "nombre": "Diego",
+        "edad": "18",
+        "genero": "masculino",
+        "sintomas_confirmados": [
+            "ictericia",
+            "palidez",
+            "dolor abdominal"
+        ],
+        "diagnostico": [
+            {
+                "nombre": "hepatitis a",
+                "descripcion": "La hepatitis A es una infeccion viral que afecta el higado y puede causar inflamacion y daño temporal",
+                "tratamiento": "reposo, hidratacion, y dieta equilibrada",
+                "medicamentos": [
+                    "Antiemeticos",
+                    "suplementos vitaminicos"
+                ],
+                "coincidencias": [
+                    "ictericia",
+                    "palidez",
+                    "dolor abdominal"
+                ],
+                "faltantes": [
+                    "fiebre",
+                    "fatiga",
+                    "nauseas"
+                ],
+                "peso_coincidencia": 2,
+                "porcentaje": 40.0
+            },
+            {
+                "nombre": "gastritis",
+                "descripcion": "La gastritis es una inflamación del revestimiento del estómago que puede causar dolor abdominal, náuseas y acidez.",
+                "tratamiento": "Evitar alimentos irritantes, consumir antiácidos y mantener una dieta blanda.",
+                "medicamentos": [
+                    "Omeprazol",
+                    "Ranitidina",
+                    "Antiácidos"
+                ],
+                "coincidencias": [
+                    "ictericia",
+                    "palidez",
+                    "dolor abdominal"
+                ],
+                "faltantes": [
+                    "acidez",
+                    "náuseas",
+                    "pérdida de apetito"
+                ],
+                "peso_coincidencia": 5,
+                "porcentaje": 35.714285714285715
+            },
+            {
+                "nombre": "anemia",
+                "descripcion": "La anemia ocurre cuando el cuerpo no tiene suficientes glóbulos rojos saludables para transportar oxígeno.",
+                "tratamiento": "Consumo de alimentos ricos en hierro y suplementos.",
+                "medicamentos": [
+                    "Sulfato ferroso"
+                ],
+                "coincidencias": [
+                    "ictericia",
+                    "palidez",
+                    "dolor abdominal"
+                ],
+                "faltantes": [
+                    "cansancio",
+                    "dificultad para concentrarse",
+                    "mareos"
+                ],
+                "peso_coincidencia": 1,
+                "porcentaje": 25.0
+            }
+        ]
+    },
+    {
+        "fecha": "2024-12-12 19:48:12",
+        "nombre": "Ramon",
+        "edad": "30",
+        "genero": "Masculino",
+        "sintomas_confirmados": [
+            "flema",
+            "dificultad para concentrarse",
+            "tos seca",
+            "tos",
+            "dificultad para respirar",
+            "fiebre",
+            "dolor de garganta",
+            "tos persistente",
+            "congestión nasal"
+        ],
+        "diagnostico": [
+            {
+                "nombre": "gripe",
+                "descripcion": "La gripe es una enfermedad viral que afecta el sistema respiratorio.",
+                "tratamiento": "Reposo, hidratación, y analgésicos.",
+                "medicamentos": [
+                    "Paracetamol",
+                    "Ibuprofeno"
+                ],
+                "coincidencias": [
+                    "flema",
+                    "dificultad para concentrarse",
+                    "tos seca",
+                    "tos",
+                    "dificultad para respirar",
+                    "fiebre",
+                    "dolor de garganta",
+                    "tos persistente",
+                    "congestión nasal"
+                ],
+                "faltantes": [],
+                "peso_coincidencia": 4,
+                "porcentaje": 100.0
+            },
+            {
+                "nombre": "covid-19",
+                "descripcion": "COVID-19 es una enfermedad causada por el virus SARS-CoV-2, que afecta principalmente el sistema respiratorio.",
+                "tratamiento": "Aislamiento, monitoreo de oxigenación, y consultar a un médico.",
+                "medicamentos": [
+                    "Antipiréticos",
+                    "Oxígeno suplementario (si es necesario)"
+                ],
+                "coincidencias": [
+                    "flema",
+                    "dificultad para concentrarse",
+                    "tos seca",
+                    "tos",
+                    "dificultad para respirar",
+                    "fiebre",
+                    "dolor de garganta",
+                    "tos persistente",
+                    "congestión nasal"
+                ],
+                "faltantes": [
+                    "fatiga"
+                ],
+                "peso_coincidencia": 3,
+                "porcentaje": 75.0
+            },
+            {
+                "nombre": "bronquitis",
+                "descripcion": "La bronquitis es una inflamación de los bronquios que puede ser causada por infecciones o irritantes.",
+                "tratamiento": "Reposo, hidratación, y medicamentos para aliviar los síntomas.",
+                "medicamentos": [
+                    "Ibuprofeno",
+                    "Expectorantes"
+                ],
+                "coincidencias": [
+                    "flema",
+                    "dificultad para concentrarse",
+                    "tos seca",
+                    "tos",
+                    "dificultad para respirar",
+                    "fiebre",
+                    "dolor de garganta",
+                    "tos persistente",
+                    "congestión nasal"
+                ],
+                "faltantes": [
+                    "dolor en el pecho",
+                    "fatiga"
+                ],
+                "peso_coincidencia": 2,
+                "porcentaje": 50.0
+            },
+            {
+                "nombre": "asma",
+                "descripcion": "El asma es una afección crónica que causa inflamación y estrechamiento de las vías respiratorias.",
+                "tratamiento": "Uso de inhaladores y evitar desencadenantes.",
+                "medicamentos": [
+                    "Salbutamol",
+                    "Corticoides inhalados"
+                ],
+                "coincidencias": [
+                    "flema",
+                    "dificultad para concentrarse",
+                    "tos seca",
+                    "tos",
+                    "dificultad para respirar",
+                    "fiebre",
+                    "dolor de garganta",
+                    "tos persistente",
+                    "congestión nasal"
+                ],
+                "faltantes": [
+                    "silbidos en el pecho",
+                    "opresión en el pecho"
+                ],
+                "peso_coincidencia": 1,
+                "porcentaje": 33.33333333333333
+            },
+            {
+                "nombre": "anemia",
+                "descripcion": "La anemia ocurre cuando el cuerpo no tiene suficientes glóbulos rojos saludables para transportar oxígeno.",
+                "tratamiento": "Consumo de alimentos ricos en hierro y suplementos.",
+                "medicamentos": [
+                    "Sulfato ferroso"
+                ],
+                "coincidencias": [
+                    "flema",
+                    "dificultad para concentrarse",
+                    "tos seca",
+                    "tos",
+                    "dificultad para respirar",
+                    "fiebre",
+                    "dolor de garganta",
+                    "tos persistente",
+                    "congestión nasal"
+                ],
+                "faltantes": [
+                    "cansancio",
+                    "palidez",
+                    "mareos"
+                ],
+                "peso_coincidencia": 1,
+                "porcentaje": 25.0
+            },
+            {
+                "nombre": "hepatitis a",
+                "descripcion": "La hepatitis A es una infeccion viral que afecta el higado y puede causar inflamacion y daño temporal",
+                "tratamiento": "reposo, hidratacion, y dieta equilibrada",
+                "medicamentos": [
+                    "Antiemeticos",
+                    "suplementos vitaminicos"
+                ],
+                "coincidencias": [
+                    "flema",
+                    "dificultad para concentrarse",
+                    "tos seca",
+                    "tos",
+                    "dificultad para respirar",
+                    "fiebre",
+                    "dolor de garganta",
+                    "tos persistente",
+                    "congestión nasal"
+                ],
+                "faltantes": [
+                    "dolor abdominal",
+                    "ictericia",
+                    "fatiga",
+                    "nauseas"
+                ],
+                "peso_coincidencia": 1,
+                "porcentaje": 20.0
+            }
+        ]
+    }
+]

@@ -1,0 +1,179 @@
+{
+    "gripe": {
+        "sintomas": {
+            "fiebre": 1,
+            "tos": 1,
+            "dolor de garganta": 1,
+            "congestión nasal": 1
+        },
+        "factores_riesgo": {
+            "edad": "cualquier",
+            "genero": "cualquier",
+            "condiciones_previas": []
+        },
+        "tratamiento": "Reposo, hidratación, y analgésicos.",
+        "medicamentos": [
+            "Paracetamol",
+            "Ibuprofeno"
+        ],
+        "descripcion": "La gripe es una enfermedad viral que afecta el sistema respiratorio."
+    },
+    "migraña": {
+        "sintomas": {
+            "dolor de cabeza": 1,
+            "náuseas": 1,
+            "sensibilidad a la luz": 1
+        },
+        "factores_riesgo": {
+            "edad": "cualquier",
+            "genero": "cualquier",
+            "condiciones_previas": [
+                "estrés",
+                "falta de sueño"
+            ]
+        },
+        "tratamiento": "Analgesia y evitar estímulos luminosos.",
+        "medicamentos": [
+            "Aspirina",
+            "Sumatriptán"
+        ],
+        "descripcion": "La migraña es un tipo de dolor de cabeza severo, a menudo acompañado de náuseas y sensibilidad a la luz."
+    },
+    "covid-19": {
+        "sintomas": {
+            "fiebre": 1,
+            "tos seca": 1,
+            "dificultad para respirar": 1,
+            "fatiga": 1
+        },
+        "factores_riesgo": {
+            "edad": "mayor de 60",
+            "genero": "cualquier",
+            "condiciones_previas": [
+                "hipertensión",
+                "diabetes",
+                "problemas cardíacos"
+            ]
+        },
+        "tratamiento": "Aislamiento, monitoreo de oxigenación, y consultar a un médico.",
+        "medicamentos": [
+            "Antipiréticos",
+            "Oxígeno suplementario (si es necesario)"
+        ],
+        "descripcion": "COVID-19 es una enfermedad causada por el virus SARS-CoV-2, que afecta principalmente el sistema respiratorio."
+    },
+    "diabetes tipo 2": {
+        "descripcion": "\"La diabetes tipo 2 afecta la forma en que el cuerpo regula y utiliza el azúcar como fuente de energía.\"",
+        "sintomas": {
+            "sed excesiva": 3,
+            "orina frecuente": 3,
+            "fatiga": 2,
+            "visión borrosa": 1
+        },
+        "tratamiento": "\"Cambios en el estilo de vida, control de la glucosa en sangre y medicamentos.",
+        "medicamentos": [
+            "Metformina",
+            "Sulfonilureas"
+        ]
+    },
+    "asma": {
+        "sintomas": {
+            "dificultad para respirar": 1,
+            "silbidos en el pecho": 1,
+            "opresión en el pecho": 1
+        },
+        "factores_riesgo": {
+            "edad": "cualquier",
+            "genero": "cualquier",
+            "condiciones_previas": [
+                "alergias",
+                "antecedentes familiares"
+            ]
+        },
+        "tratamiento": "Uso de inhaladores y evitar desencadenantes.",
+        "medicamentos": [
+            "Salbutamol",
+            "Corticoides inhalados"
+        ],
+        "descripcion": "El asma es una afección crónica que causa inflamación y estrechamiento de las vías respiratorias."
+    },
+    "bronquitis": {
+        "sintomas": {
+            "tos persistente": 1,
+            "flema": 1,
+            "dolor en el pecho": 1,
+            "fatiga": 1
+        },
+        "factores_riesgo": {
+            "edad": "cualquier",
+            "genero": "cualquier",
+            "condiciones_previas": [
+                "tabaquismo"
+            ]
+        },
+        "tratamiento": "Reposo, hidratación, y medicamentos para aliviar los síntomas.",
+        "medicamentos": [
+            "Ibuprofeno",
+            "Expectorantes"
+        ],
+        "descripcion": "La bronquitis es una inflamación de los bronquios que puede ser causada por infecciones o irritantes."
+    },
+    "anemia": {
+        "sintomas": {
+            "cansancio": 1,
+            "palidez": 1,
+            "dificultad para concentrarse": 1,
+            "mareos": 1
+        },
+        "factores_riesgo": {
+            "edad": "cualquier",
+            "genero": "femenino",
+            "condiciones_previas": [
+                "deficiencia de hierro"
+            ]
+        },
+        "tratamiento": "Consumo de alimentos ricos en hierro y suplementos.",
+        "medicamentos": [
+            "Sulfato ferroso"
+        ],
+        "descripcion": "La anemia ocurre cuando el cuerpo no tiene suficientes glóbulos rojos saludables para transportar oxígeno."
+    },
+    "hepatitis a": {
+        "sintomas": {
+            "fiebre": 1,
+            "dolor abdominal": 1,
+            "ictericia": 1,
+            "fatiga": 1,
+            "nauseas": 1
+        },
+        "factores_riesgo": {
+            "edad": "cualquier",
+            "genero": "cualquier",
+            "condiciones_previas": [
+                "contacto con personas infectadas",
+                "consumo de agua contaminada"
+            ]
+        },
+        "tratamiento": "reposo, hidratacion, y dieta equilibrada",
+        "medicamentos": [
+            "Antiemeticos",
+            "suplementos vitaminicos"
+        ],
+        "descripcion": "La hepatitis A es una infeccion viral que afecta el higado y puede causar inflamacion y daño temporal"
+    },
+    "gastritis": {
+        "descripcion": "La gastritis es una inflamación del revestimiento del estómago que puede causar dolor abdominal, náuseas y acidez.",
+        "sintomas": {
+            "dolor abdominal": 5,
+            "acidez": 4,
+            "náuseas": 3,
+            "pérdida de apetito": 2
+        },
+        "tratamiento": "Evitar alimentos irritantes, consumir antiácidos y mantener una dieta blanda.",
+        "medicamentos": [
+            "Omeprazol",
+            "Ranitidina",
+            "Antiácidos"
+        ]
+    }
+}
